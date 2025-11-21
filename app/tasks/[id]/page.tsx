@@ -30,7 +30,7 @@ export default function TaskDetailPage({ params }: TaskDetailProps) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="mb-8">
-        <Link href="/tasks" className="inline-flex items-center text-sm text-gray-500 hover:text-blue-600">
+        <Link href="/tasks" className="inline-flex items-center text-sm text-gray-500 hover:text-green-600">
           <ArrowLeft className="mr-1 h-4 w-4" />
           Back to Tasks
         </Link>
@@ -49,7 +49,7 @@ export default function TaskDetailPage({ params }: TaskDetailProps) {
                 <Download className="mr-2 h-4 w-4" />
                 Download Data
              </button>
-             <button className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+             <button className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none">
                 <Play className="mr-2 h-4 w-4" />
                 View SOP
              </button>
@@ -117,7 +117,7 @@ export default function TaskDetailPage({ params }: TaskDetailProps) {
                                 <span className="ml-2 flex-1 w-0 truncate">SOP_cups_triangle_v1.pdf</span>
                             </div>
                             <div className="ml-4 flex-shrink-0">
-                                <a href="#" className="font-medium text-blue-600 hover:text-blue-500">Download</a>
+                                <a href="#" className="font-medium text-green-600 hover:text-green-500">Download</a>
                             </div>
                         </li>
                         <li className="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
@@ -126,7 +126,7 @@ export default function TaskDetailPage({ params }: TaskDetailProps) {
                                 <span className="ml-2 flex-1 w-0 truncate">diversity_config.json</span>
                             </div>
                             <div className="ml-4 flex-shrink-0">
-                                <a href="#" className="font-medium text-blue-600 hover:text-blue-500">Download</a>
+                                <a href="#" className="font-medium text-green-600 hover:text-green-500">Download</a>
                             </div>
                         </li>
                     </ul>

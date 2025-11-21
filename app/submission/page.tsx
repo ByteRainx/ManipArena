@@ -22,15 +22,15 @@ export default function SubmissionPage() {
               <dl className="divide-y divide-gray-200">
                 <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                   <dt className="text-sm font-medium text-gray-500 flex items-center">
-                      <Code className="mr-2 h-5 w-5 text-blue-500"/> 1. Prepare
+                      <Code className="mr-2 h-5 w-5 text-green-500"/> 1. Prepare
                   </dt>
                   <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                    Package your code into a Docker container. Ensure it meets the <a href="/docs" className="text-blue-600 hover:underline">specification</a>.
+                    Package your code into a Docker container. Ensure it meets the <a href="/docs" className="text-green-600 hover:underline">specification</a>.
                   </dd>
                 </div>
                 <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                    <dt className="text-sm font-medium text-gray-500 flex items-center">
-                      <UploadCloud className="mr-2 h-5 w-5 text-blue-500"/> 2. Upload
+                      <UploadCloud className="mr-2 h-5 w-5 text-green-500"/> 2. Upload
                   </dt>
                   <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
                     Push your image to our registry or provide a public link (e.g., Docker Hub, GHCR).
@@ -38,10 +38,10 @@ export default function SubmissionPage() {
                 </div>
                 <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                    <dt className="text-sm font-medium text-gray-500 flex items-center">
-                      <Server className="mr-2 h-5 w-5 text-blue-500"/> 3. Evaluate
+                      <Server className="mr-2 h-5 w-5 text-green-500"/> 3. Evaluate
                   </dt>
                   <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                    Your container will be queued for execution on real robots. You can monitor progress in the <a href="/status" className="text-blue-600 hover:underline">Status dashboard</a>.
+                    Your container will be queued for execution on real robots. You can monitor progress in the <a href="/status" className="text-green-600 hover:underline">Status dashboard</a>.
                   </dd>
                 </div>
               </dl>
@@ -119,12 +119,12 @@ export default function SubmissionPage() {
                     id="terms"
                     name="terms"
                     type="checkbox"
-                    className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded"
+                    className="focus:ring-blue-500 h-4 w-4 text-green-600 border-gray-300 rounded"
                   />
                 </div>
                 <div className="ml-3 text-sm">
                   <label htmlFor="terms" className="font-medium text-gray-700">
-                    I agree to the <a href="/privacy" className="text-blue-600 hover:underline">Terms & Conditions</a>
+                    I agree to the <a href="/privacy" className="text-green-600 hover:underline">Terms & Conditions</a>
                   </label>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function SubmissionPage() {
               <div>
                 <button
                   type="submit"
-                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Submit for Evaluation
                 </button>

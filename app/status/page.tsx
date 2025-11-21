@@ -82,14 +82,14 @@ export default function StatusPage() {
                 </div>
             </dl>
             <div className="mt-6">
-                <div className="rounded-md bg-blue-50 p-4">
+                <div className="rounded-md bg-green-50 p-4">
                     <div className="flex">
                         <div className="flex-shrink-0">
-                            <Clock className="h-5 w-5 text-blue-400" aria-hidden="true" />
+                            <Clock className="h-5 w-5 text-green-400" aria-hidden="true" />
                         </div>
                         <div className="ml-3">
-                            <h3 className="text-sm font-medium text-blue-800">Queue Update</h3>
-                            <div className="mt-2 text-sm text-blue-700">
+                            <h3 className="text-sm font-medium text-green-800">Queue Update</h3>
+                            <div className="mt-2 text-sm text-green-700">
                                 <p>Due to high volume, evaluation times may be longer than usual. We are adding more capacity.</p>
                             </div>
                         </div>

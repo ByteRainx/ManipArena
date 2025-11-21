@@ -6,7 +6,7 @@ export default function RegistrationPage() {
       <div className="max-w-md mx-auto bg-white rounded-lg shadow overflow-hidden">
         <div className="px-6 py-8">
           <div className="text-center mb-8">
-            <UserPlus className="mx-auto h-12 w-12 text-blue-600" />
+            <UserPlus className="mx-auto h-12 w-12 text-green-600" />
             <h2 className="mt-2 text-3xl font-extrabold text-gray-900">Register Team</h2>
             <p className="mt-2 text-sm text-gray-600">
               Join the ManipArena challenge.
@@ -73,17 +73,17 @@ export default function RegistrationPage() {
                 id="terms"
                 name="terms"
                 type="checkbox"
-                className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                className="h-4 w-4 text-green-600 focus:ring-blue-500 border-gray-300 rounded"
               />
               <label htmlFor="terms" className="ml-2 block text-sm text-gray-900">
-                I agree to the <a href="#" className="text-blue-600 hover:text-blue-500">Terms and Conditions</a> and <a href="#" className="text-blue-600 hover:text-blue-500">Privacy Policy</a>.
+                I agree to the <a href="#" className="text-green-600 hover:text-green-500">Terms and Conditions</a> and <a href="#" className="text-green-600 hover:text-green-500">Privacy Policy</a>.
               </label>
             </div>
 
             <div>
               <button
                 type="submit"
-                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               >
                 Register
               </button>

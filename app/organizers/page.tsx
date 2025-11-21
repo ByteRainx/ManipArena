@@ -49,7 +49,7 @@ export default function OrganizersPage() {
                     </div>
                     <div className="mt-4">
                         <h3 className="text-lg font-medium text-gray-900">{person.name}</h3>
-                        <p className="text-sm text-blue-600 font-medium">{person.role}</p>
+                        <p className="text-sm text-green-600 font-medium">{person.role}</p>
                         <p className="mt-1 text-sm text-gray-500">{person.affiliation}</p>
                         <div className="mt-3 flex justify-center space-x-4">
                             <a href="#" className="text-gray-400 hover:text-gray-500"><Globe className="h-5 w-5"/></a>
@@ -75,7 +75,7 @@ export default function OrganizersPage() {
             </div>
             <div className="mt-8 text-center">
                 <p className="text-sm text-gray-500">
-                    Interested in sponsoring? <a href="/contact" className="text-blue-600 hover:underline">Contact us</a>.
+                    Interested in sponsoring? <a href="/contact" className="text-green-600 hover:underline">Contact us</a>.
                 </p>
             </div>
         </div>

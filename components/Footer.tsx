@@ -50,7 +50,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="md:grid md:grid-cols-4 md:gap-8">
           <div className="space-y-8 md:col-span-1">
-            <Link href="/" className="text-xl font-bold text-blue-600">
+            <Link href="/" className="text-xl font-bold text-green-600">
               ManipArena
             </Link>
             <p className="text-gray-500 text-sm">

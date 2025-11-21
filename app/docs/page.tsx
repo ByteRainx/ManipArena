@@ -19,7 +19,7 @@ export default function DocsPage() {
               <a
                 key={item.name}
                 href={item.href}
-                className="group flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md hover:bg-gray-100 hover:text-blue-600"
+                className="group flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md hover:bg-gray-100 hover:text-green-600"
               >
                 {item.name}
               </a>
@@ -31,14 +31,14 @@ export default function DocsPage() {
         <div className="md:col-span-3 prose prose-blue max-w-none">
           <div id="quick-start">
              <h1 className="text-3xl font-bold text-gray-900 mb-6">Documentation Center</h1>
-             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8">
-                <h4 className="text-blue-700 font-bold flex items-center">
+             <div className="bg-green-50 border-l-4 border-blue-500 p-4 mb-8">
+                <h4 className="text-green-700 font-bold flex items-center">
                     <Book className="h-5 w-5 mr-2"/> Quick Start Guide
                 </h4>
-                <p className="text-blue-700 mt-2">
+                <p className="text-green-700 mt-2">
                     Get your first submission running in under 10 minutes.
                 </p>
-                <button className="mt-3 bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">
+                <button className="mt-3 bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-700">
                     View Tutorial
                 </button>
              </div>

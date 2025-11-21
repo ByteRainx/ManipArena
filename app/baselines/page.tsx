@@ -64,7 +64,7 @@ export default function BaselinesPage() {
                     <Github className="mr-2 h-4 w-4 text-gray-500" />
                     View Code
                  </a>
-                 <a href={baseline.link} className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+                 <a href={baseline.link} className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none">
                     <BarChart2 className="mr-2 h-4 w-4" />
                     See Results
                  </a>
@@ -80,7 +80,7 @@ export default function BaselinesPage() {
           Check out our tutorials or join the community discussion.
         </p>
         <div className="mt-6 flex justify-center space-x-4">
-            <button className="px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+            <button className="px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700">
                 Read Tutorials
             </button>
              <button className="px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-100">

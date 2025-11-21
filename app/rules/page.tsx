@@ -13,8 +13,8 @@ export default function RulesPage() {
       <div className="grid gap-8 md:grid-cols-2">
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
           <div className="flex items-center mb-4">
-            <div className="p-2 bg-blue-100 rounded-lg">
-              <Shield className="h-6 w-6 text-blue-600" />
+            <div className="p-2 bg-green-100 rounded-lg">
+              <Shield className="h-6 w-6 text-green-600" />
             </div>
             <h3 className="ml-3 text-xl font-bold text-gray-900">Fair Play</h3>
           </div>

@@ -41,7 +41,7 @@ export function Timeline() {
     <div className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center mb-10">
-          <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">{t.timeline.title}</h2>
+          <h2 className="text-base text-green-600 font-semibold tracking-wide uppercase">{t.timeline.title}</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             {t.timeline.heading}
           </p>
@@ -54,7 +54,7 @@ export function Timeline() {
             {steps.map((step, stepIdx) => (
               <div key={step.name} className="bg-gray-50 px-4 text-center">
                 <span className="relative z-0 inline-flex shadow-sm rounded-full bg-white p-2 border border-gray-300">
-                   <step.icon className="h-6 w-6 text-blue-600" aria-hidden="true" />
+                   <step.icon className="h-6 w-6 text-green-600" aria-hidden="true" />
                 </span>
                 <div className="mt-2">
                     <p className="text-lg font-medium text-gray-900">{step.date}</p>
@@ -79,11 +79,11 @@ export function Timeline() {
                     <div className="relative flex items-start">
                     <span className="h-9 flex items-center" aria-hidden="true">
                         <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-blue-600 rounded-full">
-                        <step.icon className="h-5 w-5 text-blue-600" aria-hidden="true" />
+                        <step.icon className="h-5 w-5 text-green-600" aria-hidden="true" />
                         </span>
                     </span>
                     <div className="ml-4 min-w-0 flex-1">
-                        <span className="text-sm font-medium text-blue-600 tracking-wide">{step.date}</span>
+                        <span className="text-sm font-medium text-green-600 tracking-wide">{step.date}</span>
                         <h4 className="text-lg font-medium text-gray-900">{step.name}</h4>
                         <p className="mt-1 text-sm text-gray-500">{step.description}</p>
                     </div>

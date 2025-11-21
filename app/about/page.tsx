@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className="py-16 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">About ManipArena</h2>
+          <h2 className="text-base font-semibold text-green-600 tracking-wide uppercase">About ManipArena</h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
             Cross-Task Generalization in the Real World
           </p>
@@ -35,7 +35,7 @@ export default function AboutPage() {
                     </h3>
                     <dl className="mt-6 space-y-6">
                         <div className="flex">
-                            <Target className="flex-shrink-0 h-6 w-6 text-blue-600" />
+                            <Target className="flex-shrink-0 h-6 w-6 text-green-600" />
                             <div className="ml-3">
                                 <dt className="text-lg leading-6 font-medium text-gray-900">Remote Real-Robot Evaluation</dt>
                                 <dd className="mt-2 text-base text-gray-500">
@@ -44,7 +44,7 @@ export default function AboutPage() {
                             </div>
                         </div>
                         <div className="flex">
-                            <Layers className="flex-shrink-0 h-6 w-6 text-blue-600" />
+                            <Layers className="flex-shrink-0 h-6 w-6 text-green-600" />
                             <div className="ml-3">
                                 <dt className="text-lg leading-6 font-medium text-gray-900">6 Levels of Generalization</dt>
                                 <dd className="mt-2 text-base text-gray-500">
@@ -69,7 +69,7 @@ export default function AboutPage() {
                     { title: 'L6: Long-Horizon', desc: 'Multi-stage tasks requiring state tracking.' },
                 ].map((tier) => (
                     <div key={tier.title} className="bg-gray-50 rounded-lg p-6 border border-gray-100 hover:shadow-md transition-shadow">
-                        <h4 className="text-lg font-semibold text-blue-600">{tier.title}</h4>
+                        <h4 className="text-lg font-semibold text-green-600">{tier.title}</h4>
                         <p className="mt-2 text-gray-600">{tier.desc}</p>
                     </div>
                 ))}

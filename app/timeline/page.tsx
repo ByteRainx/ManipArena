@@ -11,10 +11,10 @@ export default function TimelinePage() {
         </div>
         <Timeline />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
-            <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
+            <div className="bg-green-50 border-l-4 border-blue-400 p-4">
                 <div className="flex">
                 <div className="ml-3">
-                    <p className="text-sm text-blue-700">
+                    <p className="text-sm text-green-700">
                     All deadlines are at 11:59 PM AOE (Anywhere on Earth).
                     </p>
                 </div>

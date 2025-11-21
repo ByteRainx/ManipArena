@@ -41,7 +41,7 @@ export default function TasksPage() {
                   </div>
                   
                   <div className="block mt-2">
-                    <p className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <p className="text-xl font-semibold text-gray-900 group-hover:text-green-600 transition-colors">
                         {task.title}
                     </p>
                     <p className="mt-3 text-base text-gray-500">
@@ -52,7 +52,7 @@ export default function TasksPage() {
                 <div className="mt-6 flex items-center">
                    <div className="flex flex-wrap gap-2">
                      {task.tags.map(tag => (
-                         <span key={tag} className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700">
+                         <span key={tag} className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-50 text-green-700">
                              {tag}
                          </span>
                      ))}

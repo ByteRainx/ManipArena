@@ -45,7 +45,7 @@ export default function DataPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Full Dataset Card */}
         <div className="bg-white rounded-lg shadow px-6 py-8 border border-gray-200">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-100 text-blue-600 mb-4">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-100 text-green-600 mb-4">
                 <Database className="h-6 w-6" />
             </div>
             <h3 className="text-lg font-medium text-gray-900">Full Dataset</h3>
@@ -54,7 +54,7 @@ export default function DataPage() {
             </p>
             <p className="mt-2 text-xs text-gray-400">Size: ~2.5 TB</p>
             <div className="mt-6">
-                <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700">
                     <Download className="mr-2 h-4 w-4" /> Download
                 </a>
             </div>

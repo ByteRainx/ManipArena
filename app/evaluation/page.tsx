@@ -33,17 +33,17 @@ export default function EvaluationPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
            <div className="border rounded-md p-4">
               <div className="flex items-center mb-2">
-                 <Activity className="h-5 w-5 text-blue-600 mr-2"/>
+                 <Activity className="h-5 w-5 text-green-600 mr-2"/>
                  <h4 className="text-lg font-bold text-gray-900">Hardware Setup</h4>
               </div>
               <p className="text-sm">
                  We use a unified hardware platform consisting of 6-DoF robotic arms, parallel jaw grippers, and RGB-D cameras.
-                 Detailed specifications are available in the <a href="/docs" className="text-blue-600">Documentation</a>.
+                 Detailed specifications are available in the <a href="/docs" className="text-green-600">Documentation</a>.
               </p>
            </div>
            <div className="border rounded-md p-4">
               <div className="flex items-center mb-2">
-                 <Terminal className="h-5 w-5 text-blue-600 mr-2"/>
+                 <Terminal className="h-5 w-5 text-green-600 mr-2"/>
                  <h4 className="text-lg font-bold text-gray-900">I/O Interface</h4>
               </div>
               <p className="text-sm">
@@ -53,7 +53,7 @@ export default function EvaluationPage() {
            </div>
            <div className="border rounded-md p-4">
               <div className="flex items-center mb-2">
-                 <Clock className="h-5 w-5 text-blue-600 mr-2"/>
+                 <Clock className="h-5 w-5 text-green-600 mr-2"/>
                  <h4 className="text-lg font-bold text-gray-900">Time Limits</h4>
               </div>
               <p className="text-sm">
@@ -63,7 +63,7 @@ export default function EvaluationPage() {
            </div>
            <div className="border rounded-md p-4">
               <div className="flex items-center mb-2">
-                 <AlertCircle className="h-5 w-5 text-blue-600 mr-2"/>
+                 <AlertCircle className="h-5 w-5 text-green-600 mr-2"/>
                  <h4 className="text-lg font-bold text-gray-900">Safety</h4>
               </div>
               <p className="text-sm">
