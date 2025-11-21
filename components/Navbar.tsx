@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -9,6 +10,7 @@ import { useLanguage } from '@/lib/LanguageContext';
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { t, language, setLanguage } = useLanguage();
+  const pathname = usePathname();
 
   const navItems = [
     { name: t.nav.about, href: '/about' },
@@ -29,21 +31,27 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
-            <div className="flex-shrink-0 flex items-center">
+            <div className="shrink-0 flex items-center">
               <Link href="/" className="text-xl font-bold text-green-600">
                 ManipArena
               </Link>
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 hover:text-green-600 transition-colors"
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const isActive = pathname === item.href;
+                return (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className={cn(
+                      'inline-flex items-center px-1 pt-1 text-sm font-medium transition-colors',
+                      isActive ? 'text-green-600' : 'text-gray-900 hover:text-green-600'
+                    )}
+                  >
+                    {item.name}
+                  </Link>
+                );
+              })}
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-4">
@@ -87,16 +95,24 @@ export function Navbar() {
       {/* Mobile menu */}
       <div className={cn('md:hidden', isOpen ? 'block' : 'hidden')}>
         <div className="pt-2 pb-3 space-y-1">
-          {navItems.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-500 hover:bg-gray-50 hover:border-blue-300 hover:text-gray-700"
-              onClick={() => setIsOpen(false)}
-            >
-              {item.name}
-            </Link>
-          ))}
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
+            return (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={cn(
+                  'block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors',
+                  isActive
+                    ? 'border-green-600 text-green-600 bg-green-50'
+                    : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-blue-300 hover:text-gray-700'
+                )}
+                onClick={() => setIsOpen(false)}
+              >
+                {item.name}
+              </Link>
+            );
+          })}
           <Link
             href="/registration"
             className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-green-600 hover:bg-green-50 hover:border-blue-600"
